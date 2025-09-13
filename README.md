@@ -1,5 +1,3 @@
-# Firebase Studio
+# WebTime Tracker
 
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
+A concept for a Chromium extension to track the time spent on websites. This Next.js app showcases the core features, including an AI-powered website categorization tool.
