@@ -2,6 +2,7 @@ import type { WebsiteCategory } from '@/lib/types';
 import {
   Briefcase,
   Film,
+  GraduationCap,
   LucideProps,
   MessageSquare,
   Newspaper,
@@ -25,6 +26,8 @@ export function CategoryIcon({ category, ...props }: CategoryIconProps) {
       return <Newspaper {...props} />;
     case 'Shopping':
       return <ShoppingCart {...props} />;
+    case 'Education':
+      return <GraduationCap {...props} />;
     case 'Other':
       return <ToyBrick {...props} />;
     default:

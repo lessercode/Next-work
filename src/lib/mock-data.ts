@@ -38,6 +38,13 @@ export const mockActivity: WebsiteActivity[] = [
   },
   {
     id: 6,
+    domain: 'coursera.org',
+    faviconUrl: 'https://www.google.com/s2/favicons?domain=coursera.org&sz=64',
+    timeSpent: 90,
+    category: 'Education',
+  },
+  {
+    id: 7,
     domain: 'wikipedia.org',
     faviconUrl: 'https://www.google.com/s2/favicons?domain=wikipedia.org&sz=64',
     timeSpent: 15,

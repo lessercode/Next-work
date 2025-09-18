@@ -4,6 +4,7 @@ export type WebsiteCategory =
   | 'News'
   | 'Entertainment'
   | 'Shopping'
+  | 'Education'
   | 'Other';
 
 export type WebsiteActivity = {
