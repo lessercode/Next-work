@@ -1,5 +1,4 @@
 import { Clock } from 'lucide-react';
-import { CategorizeWebsiteDialog } from '../dashboard/categorize-website-dialog';
 
 export default function Header() {
   return (
@@ -11,7 +10,6 @@ export default function Header() {
             WebTime Tracker
           </h1>
         </div>
-        <CategorizeWebsiteDialog />
       </div>
     </header>
   );
